@@ -8,6 +8,12 @@ I'm due for loan forgiveness and I'm sick of logging in to Mohela every day to s
 # How do I even use this pile of trash?
 Copy the .env.example file and rename it .env. You need to pick a security question and answer it in the .env. The numbers listed are from the first "group" of security questions that are on your account so you should have the answer to exactly one of them. Once you've filled out the question number, the answer, your username, and password, just run `python3 balance.py`. You'll get some JSON outputted (hopefully).
 
+Example:
+```
+$ python balance.py
+{"principal": "$150,628.03", "interest": "$98,422.40"}
+```
+
 # OK cool. Now what?
 Idk, that's up to you. I'm gonna pipe it into Home Assistant and trigger an alert when the value changes.
 
