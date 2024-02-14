@@ -12,7 +12,9 @@ Example:
 ```
 $ python balance.py
 {"principal": "$150,628.03", "interest": "$98,422.40"}
+
 ```
+![erp](https://github.com/chelming/mohela-balance/assets/7746625/2ef08a65-d6ca-4ffe-8921-243172af9700)
 
 # OK cool. Now what?
 Idk, that's up to you. I'm gonna pipe it into Home Assistant and trigger an alert when the value changes.
